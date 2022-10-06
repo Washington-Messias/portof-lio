@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+*Configurações gerais
+*/
+html{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+/* 
+*configurações do menu 
+*/
+body{
+background: #ffff;
+}
+header{
+    background: #f8f8f8;
+    height: 55px;
+   border-bottom: 1px solid red;
+}
+header .nav-menu-container .ul-container-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 18.5px;
+   
+}
+header .nav-menu-container .ul-container-list li a.link-menu{
+    display: block;
+    background: #fafffd;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 1px red;
+    margin: 0 10px;
+    padding: 3px;
+}
+header .nav-menu-container .ul-container-list li a.link-menu:hover{
+    
+    background: #e7e8e8;
+    box-shadow: 0 2px 0 1px black;
+   
+}
+header .nav-menu-container div.theme {
+   
+    display: flex;
+    left: 89%;
+    position: relative;
+    width: 50px;
+}
+header .nav-menu-container div.theme button.bt-theme-node{
+    background: #32CD32;
+    border-radius: 5px;
+    box-shadow: 0  1px 1px 1px black; 
+}
+header .nav-menu-container div.theme button.bt-theme-node:hover{
+   
+    background: #fff;
+    box-shadow: 0 1px 3px 1px red;
+    cursor: pointer;
+}
+/*
+*configuração da sessão de apresentação
+*/
+section{
+    height: 100vh;
+}
+.container-present .container-img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: -1%;
+    top: 75px;
+}
+.container-present .container-img img.img-main{
+    border-radius: 105px;
+    box-shadow: 1px 0 5px 3px red;
+    position: relative;         
+   
+}
+.container-present .container-img img.img-main:hover{
+    box-shadow: 2px 0 6px 4px black;
+}
+
+.container-present .container-img figure figcaption{
+    
+    left: 30%;
+    position: relative;
+}
+.container-present .container-project{
+    display: grid;
+    grid-template-columns:  240px 240px 240px;
+    
+}
+/*
+*configuração do rodapé
+*/
+footer#footer{
+    height : 120px;
+    background: rgba(0, 0, 0, 0.62);
+}
+.div-content-social .ul-content-li-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-content-social .ul-content-li-social li a img.img-ft{
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px 5px black; 
+    margin: 0 10px;
+}
+.div-content-social .ul-content-li-social li a img.img-ft:hover{
+    box-shadow: 3px 0px 2px 2px red;
+    cursor: pointer;
+}
+
+
